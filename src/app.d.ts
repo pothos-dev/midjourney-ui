@@ -2,8 +2,13 @@
 // for information about these interfaces
 // and what to do when importing types
 declare namespace App {
-	// interface Locals {}
-	// interface PageData {}
-	// interface PageError {}
-	// interface Platform {}
+  interface Locals {
+    auth: {
+      access_token?: string
+      refresh_token?: string
+    }
+  }
+  // interface PageData {}
+  // interface PageError {}
+  // interface Platform {}
 }
