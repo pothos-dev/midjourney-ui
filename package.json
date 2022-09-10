@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"cookie": "^0.5.0",
 		"discord.js": "^14.3.0"
 	}
 }
